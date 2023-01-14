@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact component={() => <Home />} path='/' />
-        <Route exact component={() => <Pitcher />} path='/pitcher' />
+        <Route exact component={() => <Pitcher />} path='/pitcher/:pitcher' />
       </Switch>
     </Router>
   );
